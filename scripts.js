@@ -1,5 +1,5 @@
-const d = new Date();
-
-const year = d.getFullYear();
-const fulldate = `${year}`;
-document.querySelector("#year").textContent = fulldate;
+let last =new Date(document.lastModified);
+document.getElementById("last").innerHTML= last;
+let year = new Date();
+year= year.getFullYear();
+document.querySelector('#year').textContent = year;
