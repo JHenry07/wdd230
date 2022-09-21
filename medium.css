@@ -1,0 +1,10 @@
+@media (min-width: 32.5em) {
+	header {
+        background-color: rgb(255, 0, 238);
+        color: navy;
+    }
+
+    body {
+        text-align: left;
+    }
+}
