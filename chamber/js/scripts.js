@@ -16,4 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     //update the last modified text
     document.getElementById("last-modified").innerHTML = document.lastModified;
   });
-  
+
+const datefield = document.querySelector(".date");
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
+datefield.innerHTML = `<em>${fulldate}</em>`;
