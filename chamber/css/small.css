@@ -16,14 +16,34 @@ h1 {font-family: 'Lobster', cursive;}
 /*----------- HEADER --------------*/
 header {
     display: flex;
+    align-items: stretch;
+    justify-content: space-around;
     padding: .5rem 2%;
     background-color: #f3f8f2;
     font-family: 'Lobster', cursive;
     color: #3581b8;
 }
-header div{margin-left: 10px;}
+img.socialmedia {
+    width: 30px;
+    margin: 10px;
+    justify-content: right;
+}
+
+header a {
+    text-align: right;
+}
+
+header div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 header h1 {margin: 0;}
+
 header h2 {margin: 0; font-weight: normal;}
+
+header span {text-align: right;}
 
 /*----------- NAVIGATION --------------*/
 nav {
