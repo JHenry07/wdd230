@@ -103,3 +103,7 @@ img.logo{
     max-width: 150px;
     width: 20%;
 }
+
+main div.join {display: none;}
+
+main div.spotlight p.spot3{display:none;}

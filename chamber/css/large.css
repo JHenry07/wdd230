@@ -15,13 +15,67 @@
 
 
 /*----------- NAVIGATION --------------*/
+nav button{display: none;}
+   
 
+nav ul#primaryNav{
+    display: flex;
+    margin-left: 2%;
+}
+
+
+nav ul li a{padding: .5rem 1rem;}
 
 
 /*----------- MAIN --------------*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 
+main h1 {
+    grid-column: 1 / 3;
+}
 
+main div {
+    border: 1px solid black;
+}
 
+main div.call {
+    grid-column: 2;
+    grid-row: 2 / 3;
+}
+
+main div.news {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+main div.spotlight {
+    grid-column: 3;
+    grid-row: 2 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main div.spotlight p.spot3{display: block;}
+
+main div.join {
+    display: block;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+main div.event {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+main div.weather {
+    grid-column: 1;
+    grid-row: 3;
+}
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

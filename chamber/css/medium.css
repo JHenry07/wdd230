@@ -11,21 +11,51 @@
     
     
     /*----------- NAVIGATION --------------*/
-    nav button{display: none;}
-   
 
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2%;
-    }
-    
-    
-    nav ul li a{padding: .5rem 1rem;}
-    
     
     /*----------- MAIN --------------*/
-    
-    
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    main h1 {
+        grid-column: 1 / 3;
+    }
+
+    main div {
+        border: 1px solid black;
+    }
+
+    main div.call {
+        grid-column: 1 / 3;
+    }
+
+    main div.news {
+        grid-column: 1 / 3;
+    }
+
+    main div.spotlight {
+        grid-column: 1 / 3;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main div.join {
+        display: block;
+        grid-column: 1 / 3;
+        grid-row: 5;
+    }
+
+    main div.event {
+        grid-column: 1 / 2;
+        grid-row: 6;
+    }
+
+    main div.weather {
+        grid-column: 2 / 3;
+        grid-row: 6;
+    }
     
     /*----------- FOOTER --------------*/
         
