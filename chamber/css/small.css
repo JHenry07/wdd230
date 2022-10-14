@@ -124,6 +124,11 @@ main div.spotlight img.one {max-width: 50%;}
 
 main div.spotlight img.two {max-width: 75%;}
 
+main div.spotlight p {
+    border: #3581b8 2.5px solid;
+    margin: 5px;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ebe9e9;
