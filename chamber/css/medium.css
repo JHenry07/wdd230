@@ -19,14 +19,6 @@
         grid-template-columns: 2fr 1fr;
     }
 
-    main h1 {
-        grid-column: 1 / 3;
-    }
-
-    main div {
-        border: 1px solid black;
-    }
-
     main div.call {
         grid-column: 1 / 3;
     }
