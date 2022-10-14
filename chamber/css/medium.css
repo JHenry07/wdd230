@@ -19,6 +19,14 @@
         grid-template-columns: 2fr 1fr;
     }
 
+    main h1 {
+        grid-column: 1;
+    }
+    
+    main h2{
+        grid-row: 2 / 3;
+    }
+
     main div.call {
         grid-column: 1 / 3;
     }

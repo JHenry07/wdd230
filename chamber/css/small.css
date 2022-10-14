@@ -95,6 +95,8 @@ main {
     min-height: 10rem;
 }
 
+main h2 {display: none;}
+
 main div img {max-width: 100%;}
 
 p {
