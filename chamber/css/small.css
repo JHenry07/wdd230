@@ -111,6 +111,22 @@ main div {
     border: 1px solid black;
 }
 
+div.weather {
+    border: 15px solid #3581b8;
+    text-align: center;
+}
+
+div.temperature {
+    border: none;
+    display: flex;
+}
+
+span.degree {
+    font-size: 4rem;
+    font-family: 'Work Sans', sans-serif;
+    align-self: flex-end;
+}
+
 main div.call img.call {
     max-width: 100%;
     padding: 0.2rem;
@@ -145,6 +161,10 @@ footer div{background-color: #f3f8f2;}
 img.logo{
     max-width: 150px;
     width: 20%;
+}
+
+img.icon {
+    width: 50%;
 }
 
 main div.join {display: none;}
