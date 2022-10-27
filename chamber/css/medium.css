@@ -14,17 +14,22 @@
 
     
     /*----------- MAIN --------------*/
-    main {
+    main.index {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 
-    main h1 {
+    main.index h1 {
         grid-column: 1;
     }
     
-    main h2{
+    main.index h2{
         grid-row: 2 / 3;
+    }
+
+    div.gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     main div.call {

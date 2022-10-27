@@ -52,7 +52,7 @@ header h2 {margin: 0; font-weight: normal;}
 
 header span {
     text-align: right;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -98,18 +98,18 @@ main {
     min-height: 10rem;
 }
 
-main h2 {display: none;}
+main.index h2 {display: none;}
 
 main div img {max-width: 100%;}
+
+div.gallery img:hover {box-shadow: 0 0 25px #fcb07e;}
 
 p {
     background-color: #f3f8f2;
     padding: 8px;
 }
 
-main div {
-    border: 1px solid black;
-}
+h1.discover {text-align: center;}
 
 div.weather {
     border: 15px solid #3581b8;
