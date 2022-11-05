@@ -81,6 +81,11 @@ main div.weather {
     grid-column: 1;
     grid-row: 3;
 }
+
+form label.sbs {
+    padding: .4rem 0;
+}
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

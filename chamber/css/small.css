@@ -150,6 +150,71 @@ main div.spotlight p {
     margin: 5px;
 }
 
+main.join{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+main.join h1 {grid-column: 1/3;}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #000000;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #fcb07e;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ebe9e9;
