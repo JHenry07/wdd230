@@ -1,0 +1,100 @@
+{
+    "businesses": [
+      {
+        "name": "Cupcake Genusis",
+        "website": "www.cupcakegenusis.com",
+        "founded": "1 December 2005",
+        "joined": "27 June 2021",
+        "phone": "(854)555-8072",
+        "level": "gold",
+        "address": "103 Ute dr. Auroran Valley, AK, 99508",
+        "image": ".images/cupcake.png"
+      },
+      {
+        "name": "Nova Hives",
+        "website": "www.novahives.com",
+        "founded": "23 April 2010",
+        "joined": "27 August 2021",
+        "phone": "(854)555-9165",
+        "level": "gold",
+        "address": "9577 Mullan St. Auroran Valley, AK, 99508",
+        "image": ".images/NicePng_bee-png_71299.png"
+      },
+      {
+        "name": "Pink Lutus Spa",
+        "website": "www.pinklutussap.com",
+        "founded": "15 January 2008",
+        "joined": "6 May 2020",
+        "phone": "(854)555-2343",
+        "level": "gold",
+        "address": "634 Mission Ave. Auroran Valley, AK, 99508",
+        "image": ".images/dlf.pt-lotus-flower-png-4121511.png"
+      },
+      {
+        "name": "Wilford",
+        "lastname": "Woodruff",
+        "birthdate": "01 March 1807",
+        "death": "02 September 1898",
+        "length": 9,
+        "order": 4,
+        "birthplace": "Connecticut",
+        "numofchildren": 34,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      },
+      {
+        "name": "Lorenzo",
+        "lastname": "Snow",
+        "birthdate": "03 April 1814",
+        "death": "19 October 1901",
+        "length": 3,
+        "order": 5,
+        "birthplace": "Ohio",
+        "numofchildren": 42,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      },
+      {
+        "name": "Joseph F.",
+        "lastname": "Smith",
+        "birthdate": "12 November 1838",
+        "death": "19 November 1918",
+        "length": 17,
+        "order": 6,
+        "birthplace": "Missouri",
+        "numofchildren": 48,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      },
+      {
+        "name": "Heber J.",
+        "lastname": "Grant",
+        "birthdate": "22 November 1856",
+        "death": "14 May 1945",
+        "length": 23,
+        "order": 7,
+        "birthplace": "Utah",
+        "numofchildren": 12,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+      },
+      {
+        "name": "George A.",
+        "lastname": "Smith",
+        "birthdate": "4 April 1870",
+        "death": "4 April 1951",
+        "length": 6,
+        "order": 8,
+        "birthplace": "Utah",
+        "numofchildren": 3,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+      },
+      {
+        "name": "David O.",
+        "lastname": "McKay",
+        "birthdate": "8 September 1873",
+        "death": "18 January 1970",
+        "length": 19,
+        "order": 9,
+        "birthplace": "Utah",
+        "numofchildren": 7,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+      }      
+    ]
+  }
