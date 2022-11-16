@@ -8,7 +8,7 @@
         "phone": "(854)555-8072",
         "level": "gold",
         "address": "103 Ute dr. Auroran Valley, AK, 99508",
-        "image": ".images/cupcake.png"
+        "image": "./images/cupcake.png"
       },
       {
         "name": "Nova Hives",
@@ -18,17 +18,17 @@
         "phone": "(854)555-9165",
         "level": "gold",
         "address": "9577 Mullan St. Auroran Valley, AK, 99508",
-        "image": ".images/NicePng_bee-png_71299.png"
+        "image": "./images/NicePng_bee-png_71299.png"
       },
       {
-        "name": "Pink Lutus Spa",
-        "website": "www.pinklutussap.com",
+        "name": "Pink Lotus Spa",
+        "website": "www.pinklotussap.com",
         "founded": "15 January 2008",
         "joined": "6 May 2020",
         "phone": "(854)555-2343",
         "level": "gold",
         "address": "634 Mission Ave. Auroran Valley, AK, 99508",
-        "image": ".images/dlf.pt-lotus-flower-png-4121511.png"
+        "image": "./images/dlf.pt-lotus-flower-png-4121511.png"
       },
       {
         "name": "Wilford",
