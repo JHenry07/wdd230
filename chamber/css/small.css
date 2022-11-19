@@ -215,6 +215,30 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ebe9e9;
+    margin: auto;
+    padding: 2%;
+}
+
+main.directory img{
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main.directory section{
+    background-color: #f3f8f2;
+    margin: 3%;
+}
+
+div.wire {
+    text-align: center;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ebe9e9;

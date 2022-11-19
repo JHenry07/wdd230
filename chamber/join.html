@@ -64,7 +64,7 @@
     <main class="join">
         <h1>Join Us Today</h1>
         <div>
-            <form method="get" action="thankyou.html">
+            <form method="get" action="thankyou.html" id="application">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label class="top">First Name* <input type="text" name="fname" required></lable>
@@ -72,14 +72,17 @@
                     <label class="top">Business Position Title <input type="text" name="title" min="7"></lable>    
                     <label class="top">Email* <input type="email" name="email" placeholder="example@email.com" required></lable>
                     <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></lable>
+                    <label class="top">Business Name* <input type="text" name="bname" required></lable>
+                    <label class="top">Business Description <br> <textarea form="application" name="description" rows="4" cols="40">Enter text here...</textarea></lable>
+                    <input type="hidden" name="date" class="date" value="CurrentDate">
                 </fieldset>
 
                 <fieldset>
                     <legend>Membership Level</legend>
-                    <label class="sbs"><input type="radio" name="memberLevel" value="nonprofit"> NP- Non Profit</label>
-                    <label class="sbs"><input type="radio" name="memberLevel" value="bronze"> Bronze</label>
-                    <label class="sbs"><input type="radio" name="memberLevel" value="silver"> Silver</label>
-                    <label class="sbs"><input type="radio" name="memberLevel" value="gold"> Gold</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="nonprofit"> NP- Non Profit ~ No Fee</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="bronze"> Bronze ~ $10</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="silver"> Silver ~ $20</label>
+                    <label class="sbs"><input type="radio" name="memberLevel" value="gold"> Gold ~ $30</label>
                 </fieldset>
 
                 <input type="submit" value="Join Now" class="submitBtn">
@@ -87,10 +90,14 @@
             </form>
         </div>
         <div>
-            <p>NP</p>
-            <p>Bronze</p>
-            <p>Silver</p>
-            <p>Gold</p>
+            <h3>NP</h3>
+                <p>Non-profit organisations</p>
+            <h3>Bronze</h3>
+                <p>Our lowest level</p>
+            <h3>Silver</h3>
+                <p>Our mid-level option</p>
+            <h3>Gold</h3>
+                <p>Our highest level available. Your business will be put into rotation for our spotlight on tht home page.</p>
         </div>
     </main>
     
