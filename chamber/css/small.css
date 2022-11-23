@@ -239,6 +239,10 @@ main.directory section{
 div.wire {
     text-align: center;
 }
+
+main.contact {
+    text-align: center;
+}
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ebe9e9;
@@ -253,7 +257,7 @@ img.logo {
 }
 
 img.icon {
-    width: 100%;
+    max-width: 85px;
 }
 
 main div.join {display: none;}
