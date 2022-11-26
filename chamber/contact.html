@@ -63,14 +63,15 @@
 <!-- CONTENT HERE -->
     <main class="contact">
         <h1>Contact Us</h1>
-        
+
         <div>
             <form method="get" action="thankyouC.html" id="contact">
                 <fieldset>
                     <legend>Send an Email</legend>
-                    <label class="top">Name <input type="text" name="name"></label>
+                    <label class="top">Name* <input type="text" name="name" required></label>
                     <lable class="top">Email* <input type="email" name="email" placeholder="example@email.com" required></lable>
-                    <label class="top">Questions, Comments, Consernes <br> <textarea form="contact" name="content" rows="4" cols="40">Enter text here...</textarea></label>
+                    <lable class="top">Phone Number* <input type="tel" name="phone" placeholder="1235551234" required></lable>
+                    <label class="top">Message <br> <textarea form="contact" name="content" rows="4" cols="40">Enter text here...</textarea></label>
                 </fieldset>
                 <input type="submit" value="Send" class="submitBtn">
             </form>
