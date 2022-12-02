@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Varela+Round&display=swap');
+
+header, footer{
+    text-align: center;
+    background-color: #b3efb2;
+    border: #3fa7d6 2px solid;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 20px;
+    padding: 5%;
+}
+
+h1, h2, h3, h4, p.indie {
+    font-family: 'Indie Flower', cursive;
+    color: #f42b03;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div img {max-width: 75%;}
+
+img.map{max-width: 400px;}
+
+p.green{
+    background-color: black;
+    color: #b3efb2;
+}
+
+p.red{
+    background-color: black;
+    color: #f42b03;
+}
+
+p.blue{
+    background-color: black;
+    color: #3fa7d6;
+}
+
+p.coal{color:#2c4251}
+
+footer{color: #2c4251;}
