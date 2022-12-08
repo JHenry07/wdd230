@@ -1,5 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Varela+Round&display=swap');
-/*
-font-family: 'Indie Flower', cursive;
-font-family: 'Varela Round', sans-serif;
-*/
+
+header, footer{
+    text-align: center;
+    background-color: #b3efb2;
+    border: #3fa7d6 2px solid;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 20px;
+    padding: 5%;
+}
+
+h1, h2, h3, h4, p.indie {
+    font-family: 'Indie Flower', cursive;
+    color: #f42b03;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer{color: #2c4251;}
+
+img.socialmedia {
+    width: 25px;
+    margin: 5px;
+    justify-content: right;
+}
+
+nav {
+    background-color: #3fa7d6;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #b3efb2;
+    color: black;
+}
+nav ul li.active a {
+    background-color: #f42b03;
+    color: black;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
