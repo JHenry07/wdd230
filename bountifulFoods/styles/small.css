@@ -17,12 +17,23 @@ h1, h2, h3, h4, p.indie {
     color: #f42b03;
 }
 
-div {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+h1 {font-size: 3rem;}
+
+h2 {font-size: 2.5rem;}
+
+h3 {font-size: 2rem;}
+
+h4 {font-size: 1.75rem;}
 
 footer{color: #2c4251;}
+
+div {
+    border: #3fa7d6 solid 2px;
+    margin: 1%;
+    padding: 1%;
+}
+
+div.temperature {border: none;}
 
 img.socialmedia {
     width: 25px;

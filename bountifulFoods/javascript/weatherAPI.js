@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('figcaption');
 const currentWindSpeed = document.querySelector('#speed');
 const currentWindChill = document.querySelector('#chill');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=34.953&lon=-120.436&appid=8dd2390085f7c85879f8a6beada0da1f&units=imperial';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=34.953&lon=-120.436&appid=80636e4fc7fc5e878a1c611a8f9b9281&units=imperial';
 
 async function apiFetch() {
   try {
