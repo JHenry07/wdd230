@@ -6,10 +6,14 @@ header, footer{
     border: #3fa7d6 2px solid;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     font-family: 'Varela Round', sans-serif;
-    margin: 20px;
-    padding: 5%;
+    padding: 2%;
 }
 
 h1, h2, h3, h4, p.indie {
@@ -19,7 +23,7 @@ h1, h2, h3, h4, p.indie {
 
 h1 {font-size: 3rem;}
 
-h2 {font-size: 2.5rem;}
+h2 {font-size: 3rem;}
 
 h3 {font-size: 2rem;}
 
@@ -29,8 +33,8 @@ footer{color: #2c4251;}
 
 div {
     border: #3fa7d6 solid 2px;
-    margin: 1%;
-    padding: 1%;
+    margin: 5px;
+    padding: 10px;
 }
 
 div.temperature {border: none;}
@@ -77,3 +81,138 @@ nav ul.open {display: block;}
 
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+
+header img {
+    max-width: 50%;
+}
+
+img {
+    max-width: 100%;
+    padding: 0.5rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #2c4251;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #2c4251;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+}
+
+form input, form select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #2c4251;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form input.submitBtn {
+    border: 3px solid #3fa7d6;
+    background-color: #b3efb2;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+main.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.call {
+    grid-column: 2 / 5;
+    grid-row: 1 / 4;
+}
+
+div.weather {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    text-align: center;
+}
+
+div.location {
+    grid-column: 1 / 4;
+}
+
+div.location img {
+    max-width: 20%;
+    float: left;
+}
+
+div.orders {
+    grid-column: 4 / 5;
+}
+
+div.adress {
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+img.history {
+    max-width: 12%;
+    float: right;
+}
+
+img.mission {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 32%;
+}
+
+main.orderForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+img.order1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+form {
+    grid-column: 2 / 4 ;
+    grid-row: 1 / 3;
+}
+
+img.order2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+img.order3 {
+    grid-column: 3 / 4;
+}
+
+div.nutrition {
+    grid-column: 1 / 3;
+}

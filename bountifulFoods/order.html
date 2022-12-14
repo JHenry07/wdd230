@@ -24,14 +24,34 @@
         </ul>
     </nav>
     
-    <main>
-        <img src="images/pexels-ylanite-koppens-2479242.jpg" alt="Fruit drinks">
-        <from></from>
-        <img src="images/wesual-click-eXdKs9d37Sc-unsplash.jpg" alt="Fruit drinks">
+    <main class="orderForm">
+        <img class="order1" src="images/pexels-ylanite-koppens-2479242.jpg" alt="Fruit drinks">
+        <form method="get" action="" id="juiceOrder">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></lable>  
+                <label class="top">Email* <input type="email" name="email" placeholder="example@email.com" required></lable>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></lable>
+                <input type="hidden" name="date" class="date" value="CurrentDate">
+            </fieldset>
+
+            <fieldset>
+                <legend>Fruits</legend>
+                <label for="fruit1" class="fruit">Select First Fruit: </label><select id="fruit1" name="fruit1">
+                </select>
+                <label for="fruit2" class="fruit">Select Second Fruit: </label><select id="fruit2" name="fruit2">
+                </select>
+                <label for="fruit3" class="fruit">Select Third Fruit: </label><select id="fruit3" name="fruit3">
+                </select>
+            </fieldset>
+
+            <input type="submit" value="Order Now" class="submitBtn">
+        </form>
+        <img class="order2" src="images/wesual-click-eXdKs9d37Sc-unsplash.jpg" alt="Fruit drinks">
         <div class="nutrition">
             
         </div>
-        <img src="images/whitney-wright-TgQkxQc-t_U-unsplash.jpg" alt="Fruit drinks">
+        <img class="order3" src="images/whitney-wright-TgQkxQc-t_U-unsplash.jpg" alt="Fruit drinks">
     </main>
 
     <footer>

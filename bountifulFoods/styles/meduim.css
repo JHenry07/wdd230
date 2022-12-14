@@ -12,4 +12,8 @@ nav ul#primaryNav{
 
 nav ul li a{padding: .5rem 1rem;}
 
+header img {max-width: 50%;}
+
+h1 {font-size: 3rem;}
+
 }
