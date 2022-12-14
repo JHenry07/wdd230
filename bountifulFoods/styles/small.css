@@ -111,7 +111,7 @@ form label {
     font-size: .8rem;
 }
 
-form input, form select {
+form input, form select, textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px #2c4251;
@@ -132,14 +132,6 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-}
-
-form label.top input:required {
-    border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: green solid 6px;
 }
 
 main.home{

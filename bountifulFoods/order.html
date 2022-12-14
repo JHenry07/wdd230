@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <img src="images/bountifulFoods.png" alt="Bountiful Foods logo">
+        <img src="images/bountifulFoods.png" alt="Bountiful Foods logo" loading="lazy">
         <h1>Bountiful Foods</h1>
     </header>
     <nav>
@@ -25,8 +25,8 @@
     </nav>
     
     <main class="orderForm">
-        <img class="order1" src="images/pexels-ylanite-koppens-2479242.jpg" alt="Fruit drinks">
-        <form method="get" action="" id="juiceOrder">
+        <img class="order1" src="images/pexels-ylanite-koppens-2479242.jpg" alt="Fruit drinks" loading="lazy">
+        <form method="get" id="juiceOrder">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></lable>  
@@ -45,20 +45,25 @@
                 </select>
             </fieldset>
 
+            <fieldset>
+                <legend>Instructions</legend>
+                <lable class="top">Special Directions<textarea form="juiceOrder" name="instructions" rows="4" cols="40">Enter text here...</textarea></lable>
+            </fieldset>
+
             <input type="submit" value="Order Now" class="submitBtn">
         </form>
-        <img class="order2" src="images/wesual-click-eXdKs9d37Sc-unsplash.jpg" alt="Fruit drinks">
+        <img class="order2" src="images/wesual-click-eXdKs9d37Sc-unsplash.jpg" alt="Fruit drinks" loading="lazy">
         <div class="nutrition">
             
         </div>
-        <img class="order3" src="images/whitney-wright-TgQkxQc-t_U-unsplash.jpg" alt="Fruit drinks">
+        <img class="order3" src="images/whitney-wright-TgQkxQc-t_U-unsplash.jpg" alt="Fruit drinks" loading="lazy">
     </main>
 
     <footer>
         &copy; <span id="year"></span> .:|:. Jessica Henry .:|:. Last Modified: <span id="last"></span>
-        <a href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="images/facebook.png" alt="Facebook Logo"></a>
-        <a href="https://www.pinterest.com/" target="_blank"><img class="socialmedia" src="images/pinterest.png" alt="Pinterest Logo"></a>
-        <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="images/instagram.png" alt="Instagram Logo"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="socialmedia" src="images/facebook.png" alt="Facebook Logo" loading="lazy"></a>
+        <a href="https://www.pinterest.com/" target="_blank"><img class="socialmedia" src="images/pinterest.png" alt="Pinterest Logo" loading="lazy"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="socialmedia" src="images/instagram.png" alt="Instagram Logo" loading="lazy"></a>
     </footer>
 <script src="javascript/scripts.js"></script>
 </body>
